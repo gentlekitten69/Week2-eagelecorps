@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    flex-direction: row; /* row by default. not needed */
+    justify-content: space-around;/*equally space the item */
+    background-color: #333;
+    padding: 1em 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.navbar a:hover{
+    background-color: #555;
+    transform: translateY(-5px);
+}

@@ -1,0 +1,55 @@
+.practice-container{
+    display: -moz-grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: 
+    "header header header"
+    "siderbar Maincontent"
+    "Content1 Content2 Content3"
+    "footer footer footer";
+    gap: 1em;
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+    background-color: aquamarine;
+    padding: 1em;
+    gap: 1em;
+}
+
+nav{
+    grid-area: nav;
+    background-color: bisque;
+    padding: 1em;
+}
+
+main{
+    grid-area: main;
+    background-color: red;
+    padding: 1em;
+}
+
+aside1{
+    grid-area: aside;
+    background-color: aqua;
+    padding: .1em;
+}
+
+aside2{  
+    grid-area: aside;
+    background-color: blue;
+    padding: .1em;
+}
+
+aside3{  
+    grid-area: aside;
+    background-color: chocolate;
+    padding: .1em
+}
+
+footer{ 
+    grid-area: footer;
+    background-color: gray;
+    padding: 1em;
+}

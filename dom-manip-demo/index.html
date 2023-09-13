@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        body{
+            font-size: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">This is a heading</h1>
+
+    
+</body>
+<script>
+    console.log("The JavaScript ran");
+    let heading = document.getElementById("heading");
+    heading.textContent = "This is a NEW heading";
+</script>
+</html>
